@@ -1,5 +1,6 @@
 <script>
   import PeriodicElement from "./PeriodicElement.svelte";
+  import PeriodicElementDetail from "./PeriodicElementDetail.svelte";
   import { data } from "../fetchData";
 </script>
 
@@ -13,6 +14,7 @@
 </style>
 
 <div class="periodic-table">
+  <PeriodicElementDetail atomicNumber="1" />
   {#each $data as element}
     <PeriodicElement {element} />
   {/each}

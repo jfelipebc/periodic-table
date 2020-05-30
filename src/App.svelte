@@ -1,8 +1,8 @@
 <script>
-  import PeriodicList from "./components/PeriodicList.svelte";
+  import PeriodicTable from "./components/PeriodicTable.svelte";
 </script>
 
 <main>
   <h1>Periodic Table</h1>
-  <PeriodicList />
+  <PeriodicTable />
 </main>
